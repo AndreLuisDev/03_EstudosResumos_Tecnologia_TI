@@ -1,0 +1,33 @@
+ Criei esse arquivo pelo terminal Git Bash
+
+  Dentro do diretório que você deseja criar o arquivo, digite no terminal:
+
+ cria o arquivo.txt, escreve o conteúdo entre aspas.
+  Em "arquivo.txt" você coloca o nome do arquivo que quer nomear
+	echo "Conteúdo inicial do arquivo" > arquivo.txt
+
+
+  se eu digitar o comando abaixo, ele abre o mesmo documento e insere uma nova anotação em uma nova linha e mantém a anotação anterior
+	echo "Nova linha" >> arquivo.txt
+ cria um arquivo vazio
+	touch arquivo.txt
+
+  cria um arquivo vazio - edição pelo famoso notepad
+	notepad arquivo.txt
+
+
+
+ como acessar o arquivo pelo terminal, fazer anotação e sair? 3 formas. Eu prefiro notepad
+
+	nano arquivo.txt # o próprio software vai indicar os comandos para salvar e sair
+
+	notepad arquivo.txt # você edita dentro no notepad na interface do Windows e sai;
+
+	vim arquivo.txt # comandos próprios para usar. Usado no Linux/Mac
+
+visualizar o conteúdo do arquivo.txt no terminal sem precisar aqui o arquivo. Dê um cat!
+
+	cat arquivo.txt
+
+ limpar a janela do terminal
+	clear
